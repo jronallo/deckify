@@ -1,0 +1,5 @@
+guard 'livereload', :apply_js_live => false, :apply_css_live => false do
+  watch(%r{.+\.(md)$})
+  watch(%r{stylesheets/.+\.(css)$})
+  watch(%r{javascripts/.+\.(js)$})
+end

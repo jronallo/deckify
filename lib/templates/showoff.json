@@ -1,0 +1,9 @@
+{
+    "style": "swiss",
+    "transition": "fade",
+    "sections": [
+      "first_slide.md",
+      "custom_javascripts.md",
+      "custom_stylesheets.md"
+    ]
+  }
