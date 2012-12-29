@@ -1,3 +1,4 @@
+# This allows deployment to Heroku: https://github.com/alexch/deck.rb#deploying-to-heroku
 require "rubygems"
 require "bundler"
 Bundler.setup

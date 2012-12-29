@@ -1,18 +1,8 @@
 # Deckify
 
-Quickly scaffold a new [deck.rb](https://github.com/alexch/deck.rb) project.
+Quickly scaffold a new [deck.rb](https://github.com/alexch/deck.rb) presentation.
 
 ## Installation
-
-Add this line to your application's Gemfile:
-
-    gem 'deckify'
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
 
     $ gem install deckify
 
