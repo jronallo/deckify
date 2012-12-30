@@ -23,6 +23,10 @@ module Deckify
     def create_custom_javascript
       template "javascripts/custom_javascript.js"
     end
+    def create_speaker_notes
+      template "javascripts/speaker_notes.js"
+      template "stylesheets/speaker_notes.css"
+    end
 
     def create_custom_stylesheets_md
       template "custom_stylesheets.md"
