@@ -17,27 +17,16 @@ module Deckify
       template "first_slide.md"
     end
 
-    def create_custom_javascripts_md
-      template "custom_javascripts.md"
-    end
-    def create_custom_javascript
-      template "javascripts/custom_javascript.js"
-    end
     def create_speaker_notes
       template "javascripts/speaker_notes.js"
       template "stylesheets/speaker_notes.css"
     end
 
-    def create_custom_stylesheets_md
-      template "custom_stylesheets.md"
-    end
     def create_custom_stylesheets
       template "stylesheets/custom_stylesheet.css"
       template "stylesheets/pre.css"
     end
     
-    # create directory for javascripts and css
-
     def create_guardfile
       template "Guardfile"
     end

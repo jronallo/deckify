@@ -1,9 +1,14 @@
 {
     "style": "swiss",
     "transition": "fade",
+    "custom_javascripts": [
+      "javascripts/speaker_notes.js"
+    ],
+    "custom_stylesheets": [
+      "stylesheets/pre.css",
+      "stylesheets/speaker_notes.css"
+    ],
     "sections": [
-      "first_slide.md",
-      "custom_javascripts.md",
-      "custom_stylesheets.md"
+      "first_slide.md"
     ]
   }
